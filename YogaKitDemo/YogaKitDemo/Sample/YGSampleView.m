@@ -66,7 +66,7 @@
             [self setupType:YGSampleTypeCenter];
             [self.yellowView configureLayoutWithBlock:^(YGLayout *layout) {
                 layout.isEnabled = YES;
-                layout.margin = YGPointValue(100);
+                layout.margin = YGPointValue(10);
                 layout.flexGrow = 1;
             }];
             [self.redView addSubview:self.yellowView];
@@ -190,6 +190,39 @@
                 [self.yoga applyLayoutPreservingOrigin:YES];
                 [self layoutIfNeeded];
             }];
+            break;
+        }
+       case YGSampleTypeFlow:
+        {
+            [self configureLayoutWithBlock:^(YGLayout *layout) {
+                layout.isEnabled = YES;
+//                layout.direction = YGFlexDirectionRow;
+//                layout.alignContent = YGAlignFlexStart;
+                layout.justifyContent = YGJustifyFlexStart;
+                layout.alignItems = YGAlignFlexStart;
+                layout.paddingHorizontal = YGPointValue(1);
+//                layout.flexWrap = YGWrapWrap;
+            }];
+            
+            for ( int i = 1 ; i <= 10 ; ++i )
+            {
+                UIView *item = [UIView new];
+                item.backgroundColor = [UIColor colorWithHue:( arc4random() % 256 / 256.0 )
+                                                  saturation:( arc4random() % 128 / 256.0 ) + 0.5
+                                                  brightness:( arc4random() % 128 / 256.0 ) + 0.5
+                                                       alpha:1];
+                [item  configureLayoutWithBlock:^(YGLayout *layout) {
+                    layout.isEnabled = YES;
+                    layout.height = YGPointValue(50);
+                    layout.width = YGPointValue(100);
+                    layout.marginLeft = YGPointValue(0);
+//                    layout.flexBasis = YGPointValue(self.frame.size.width/4);
+//                    layout.flexGrow = 0;
+//                    layout.flexShrink = 0;
+                }];
+                
+                [self addSubview:item];
+            }
             break;
         }
         default:

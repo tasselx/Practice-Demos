@@ -15,6 +15,10 @@
 		042AF38422B755AA008A0358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF38322B755AA008A0358 /* main.m */; };
 		042AF3BE22B76DED008A0358 /* YGSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF3BC22B76DED008A0358 /* YGSampleView.m */; };
 		042AF3C122B76E1D008A0358 /* YGSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF3C022B76E1D008A0358 /* YGSampleViewController.m */; };
+		042AF3D922B7DD22008A0358 /* ShylockExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF3D822B7DD22008A0358 /* ShylockExampleViewController.m */; };
+		04D3D0A022B7E13E001E31FF /* Shows.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D3D09F22B7E13E001E31FF /* Shows.plist */; };
+		04D3D0A322B7E152001E31FF /* ShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3D0A222B7E152001E31FF /* ShowModel.m */; };
+		04D3D0A622B7E165001E31FF /* ShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3D0A522B7E165001E31FF /* ShowTableViewCell.m */; };
 		CEE675C5A7556B188436C24F /* Pods_YogaKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A0A5DA3869DFB1E116330 /* Pods_YogaKitDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +38,13 @@
 		042AF3BD22B76DED008A0358 /* YGSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSampleView.h; sourceTree = "<group>"; };
 		042AF3BF22B76E1D008A0358 /* YGSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGSampleViewController.h; sourceTree = "<group>"; };
 		042AF3C022B76E1D008A0358 /* YGSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGSampleViewController.m; sourceTree = "<group>"; };
+		042AF3D722B7DD22008A0358 /* ShylockExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShylockExampleViewController.h; path = YogaKitDemo/Sample/ShylockExampleViewController.h; sourceTree = SOURCE_ROOT; };
+		042AF3D822B7DD22008A0358 /* ShylockExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShylockExampleViewController.m; path = YogaKitDemo/Sample/ShylockExampleViewController.m; sourceTree = SOURCE_ROOT; };
+		04D3D09F22B7E13E001E31FF /* Shows.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Shows.plist; sourceTree = "<group>"; };
+		04D3D0A122B7E152001E31FF /* ShowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowModel.h; sourceTree = "<group>"; };
+		04D3D0A222B7E152001E31FF /* ShowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowModel.m; sourceTree = "<group>"; };
+		04D3D0A422B7E165001E31FF /* ShowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTableViewCell.h; sourceTree = "<group>"; };
+		04D3D0A522B7E165001E31FF /* ShowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewCell.m; sourceTree = "<group>"; };
 		2CD0D9F2BD8A4743B3DFF383 /* Pods_YogaKitDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaKitDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C97460925FB3C72542F95D3 /* Pods_YogaKitDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaKitDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EBEC1BA242D350C53A2800 /* Pods-YogaKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaKitDemoTests.release.xcconfig"; path = "Target Support Files/Pods-YogaKitDemoTests/Pods-YogaKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +98,7 @@
 				042AF37F22B755A9008A0358 /* LaunchScreen.storyboard */,
 				042AF38222B755AA008A0358 /* Info.plist */,
 				042AF38322B755AA008A0358 /* main.m */,
+				04D3D09F22B7E13E001E31FF /* Shows.plist */,
 			);
 			path = YogaKitDemo;
 			sourceTree = "<group>";
@@ -94,6 +106,7 @@
 		042AF3B522B767E9008A0358 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				04D3D09E22B7E0A2001E31FF /* ShylockExample */,
 				042AF3B622B767FF008A0358 /* TableView */,
 				042AF3BD22B76DED008A0358 /* YGSampleView.h */,
 				042AF3BC22B76DED008A0358 /* YGSampleView.m */,
@@ -108,6 +121,19 @@
 			children = (
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		04D3D09E22B7E0A2001E31FF /* ShylockExample */ = {
+			isa = PBXGroup;
+			children = (
+				042AF3D722B7DD22008A0358 /* ShylockExampleViewController.h */,
+				042AF3D822B7DD22008A0358 /* ShylockExampleViewController.m */,
+				04D3D0A122B7E152001E31FF /* ShowModel.h */,
+				04D3D0A222B7E152001E31FF /* ShowModel.m */,
+				04D3D0A422B7E165001E31FF /* ShowTableViewCell.h */,
+				04D3D0A522B7E165001E31FF /* ShowTableViewCell.m */,
+			);
+			path = ShylockExample;
 			sourceTree = "<group>";
 		};
 		148E73E446CB8F456066DAC4 /* Frameworks */ = {
@@ -193,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042AF38122B755A9008A0358 /* LaunchScreen.storyboard in Resources */,
+				04D3D0A022B7E13E001E31FF /* Shows.plist in Resources */,
 				042AF37E22B755A9008A0358 /* Assets.xcassets in Resources */,
 				042AF37C22B755A8008A0358 /* Main.storyboard in Resources */,
 			);
@@ -249,8 +276,11 @@
 			files = (
 				042AF37922B755A8008A0358 /* ViewController.m in Sources */,
 				042AF3C122B76E1D008A0358 /* YGSampleViewController.m in Sources */,
+				04D3D0A622B7E165001E31FF /* ShowTableViewCell.m in Sources */,
 				042AF38422B755AA008A0358 /* main.m in Sources */,
+				042AF3D922B7DD22008A0358 /* ShylockExampleViewController.m in Sources */,
 				042AF37622B755A8008A0358 /* AppDelegate.m in Sources */,
+				04D3D0A322B7E152001E31FF /* ShowModel.m in Sources */,
 				042AF3BE22B76DED008A0358 /* YGSampleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

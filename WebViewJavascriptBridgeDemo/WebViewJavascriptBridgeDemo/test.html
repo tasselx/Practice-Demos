@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>WebViewJavascript Demo</title>
+                    </head>
+    <body>
+        <button onclick="copyAction()">JS调用原生复制功能</button>
+        
+    </body>
+    <script>
+        
+        function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'https://__bridge_loaded__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+    
+    setupWebViewJavascriptBridge(function(bridge) {
+                                 bridge.registerHandler('alert',function(data,responseCallback){
+                                                        alert(data);
+                                                        responseCallback(data);
+                                                        });
+                                 });
+                                 
+     function setNavTitle(){
+         window.WebViewJavascriptBridge.callHandler('setNavTitle','WebViewJavascript Demo');
+     }
+    function copyAction(){
+        window.WebViewJavascriptBridge.callHandler('copyAction',null);
+    }
+    window.onload = function(){
+        setNavTitle();
+    }
+    </script>
+</html>
+

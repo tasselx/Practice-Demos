@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YGSampleViewController.h"
+#import "ShylockExampleViewController.h"
 typedef NS_ENUM(NSInteger,  YGSampleSectionType) {
     YGSampleSectionTypeNormal,//普通视图
     YGSampleSectionTypeList,//列表视图
@@ -50,6 +51,20 @@ static NSString *const tableViewIdentifier = @"tableViewIdentifier";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section ==  YGSampleSectionTypeList) {
+        switch (indexPath.row) {
+            case 0:
+            {
+                break;
+            }
+            case 1:
+            {
+                ShylockExampleViewController *exampleVC = [ShylockExampleViewController new];
+                [self.navigationController pushViewController:exampleVC animated:YES];
+            }
+                
+            default:
+                break;
+        }
 //        YGSampleTableViewController *tableVC = [[YGSampleTableViewController alloc] init];
 //        [self.navigationController pushViewController:tableVC animated:YES];
         return;
@@ -87,14 +102,14 @@ static NSString *const tableViewIdentifier = @"tableViewIdentifier";
 
 - (NSArray *)layoutNormalList{
     if (!_layoutNormalList) {
-        _layoutNormalList = @[@"居中布局",@"嵌套布局",@"等间距布局",@"等间距自动设宽",@"ScrollView排布设contentSize",@"缩放动画"];
+        _layoutNormalList = @[@"居中布局",@"嵌套布局",@"等间距布局",@"等间距自动设宽",@"ScrollView排布设contentSize",@"缩放动画",@"流式布局"];
     }
     return _layoutNormalList;
 }
 
 - (NSArray *)layoutTableList{
     if (!_layoutTableList) {
-        _layoutTableList = @[@"微博列表"];
+        _layoutTableList = @[@"微博列表",@"完成实例"];
     }
     return _layoutTableList;
 }

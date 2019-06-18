@@ -1,24 +1,28 @@
 PODS:
+  - KVOController (1.2.0)
   - Masonry (1.1.0)
   - Yoga (1.14.0)
   - YogaKit (1.14.0):
     - Yoga (~> 1.14)
 
 DEPENDENCIES:
+  - KVOController
   - Masonry
   - YogaKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - KVOController
     - Masonry
     - Yoga
     - YogaKit
 
 SPEC CHECKSUMS:
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YogaKit: 5d1dc899cecd5946e5a758a0c3997704a4b48d01
 
-PODFILE CHECKSUM: 597c6b7270aa3535dda95c959ebeceda603748c3
+PODFILE CHECKSUM: a378074d8ec74549e924e08ab4947b1762b16fee
 
 COCOAPODS: 1.7.1

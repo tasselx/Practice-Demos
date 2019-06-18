@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-YogaKitDemo/Pods-YogaKitDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework
 ${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework
