@@ -26,6 +26,7 @@
     [intrinsicView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(self.view);
     }];
+    intrinsicView.content = @"122";
 }
 
 
