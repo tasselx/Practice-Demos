@@ -1,0 +1,6 @@
+framework module Pods_GridMasnory {
+  umbrella header "Pods-GridMasnory-umbrella.h"
+
+  export *
+  module * { export * }
+}
