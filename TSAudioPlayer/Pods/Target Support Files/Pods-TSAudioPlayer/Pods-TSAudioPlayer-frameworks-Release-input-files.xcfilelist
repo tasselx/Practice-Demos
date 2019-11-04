@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TSAudioPlayer/Pods-TSAudioPlayer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FreeStreamer/FreeStreamer.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
