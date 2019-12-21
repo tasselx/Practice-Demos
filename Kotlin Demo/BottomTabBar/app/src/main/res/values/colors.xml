@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="main_tab_item_text_select">#00ceaa</color>
+    <color name="main_tab_item_text_norml">#808288</color>
+
+    <color name="tab_item_background">#ffffff</color>
+    <color name="main_title_text_select">#78ffffff</color>
+    <color name="main_title_text_normal">#ffffffff</color>
 </resources>

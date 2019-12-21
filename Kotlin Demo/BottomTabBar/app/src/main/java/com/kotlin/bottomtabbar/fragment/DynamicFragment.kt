@@ -15,6 +15,6 @@ public class DynamicFragment:Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         var rootView = inflater.inflate(R.layout.fragment_dynamic,null);
-        return null;
+        return rootView;
     }
 }
