@@ -31,7 +31,7 @@
 
 - (void)testPresentVC {
     TestViewController *secondViewController = [TestViewController new];
-    
+    secondViewController.halfScreen  = YES;
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:secondViewController];
     nav.navigationBarHidden = YES;
     

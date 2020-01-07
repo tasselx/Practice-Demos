@@ -41,7 +41,11 @@
 
 - (void)updatePreferredContentSizeWithTraitCollection:(UITraitCollection *)traitCollection
 {
-    self.preferredContentSize = CGSizeMake(self.view.bounds.size.width,420);
+    if (self.halfScreen) {
+        self.preferredContentSize = CGSizeMake(self.view.bounds.size.width,420);
+    }else {
+        self.preferredContentSize = [UIScreen mainScreen].bounds.size;
+    }
 }
 
 @end
