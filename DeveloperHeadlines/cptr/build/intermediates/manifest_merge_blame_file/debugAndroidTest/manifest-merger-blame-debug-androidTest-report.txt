@@ -1,0 +1,38 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chanven.lib.cptr.test" >
+4
+5    <uses-sdk
+5-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:5:5-72
+6        android:minSdkVersion="8"
+6-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:5:15-40
+7        android:targetSdkVersion="8" />
+7-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:5:41-69
+8
+9    <instrumentation
+9-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:11:5-15:75
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:13:22-53
+13        android:label="Tests for com.chanven.lib.cptr.test"
+13-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:15:22-73
+14        android:targetPackage="com.chanven.lib.cptr.test" />
+14-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:12:22-71
+15
+16    <application
+16-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:7:5-9:19
+17        android:allowBackup="true"
+17-->[__tested_artifact__::cptr] /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-35
+18        android:debuggable="true"
+18-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:7:18-43
+19        android:label="@string/app_name" >
+19-->[__tested_artifact__::cptr] /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-41
+20        <uses-library android:name="android.test.runner" />
+20-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:8:9-60
+20-->/Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger726631240652268422.xml:8:23-57
+21    </application>
+22
+23</manifest>

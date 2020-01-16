@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1f2ad82-967a-4cd1-8f6f-e8a633d9e123" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_22_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_22_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_22_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_22_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../带你实现开发者头条(一) 启动页实现/DeveloperHeadlines/app/src/main/res/drawable-xxhdpi/page_indicator_focused.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../带你实现开发者头条(一) 启动页实现/DeveloperHeadlines/app/src/main/res/drawable-xxhdpi/page_indicator_unfocused.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../带你实现开发者头条(一) 启动页实现/DeveloperHeadlines/app/src/main/res/drawable-xxhdpi/tutorial_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../带你实现开发者头条(一) 启动页实现/DeveloperHeadlines/app/src/main/res/drawable-xxhdpi/tutorial_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../带你实现开发者头条(一) 启动页实现/DeveloperHeadlines/app/src/main/res/drawable-xxhdpi/tutorial_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../带你实现开发者头条(一) 启动页实现/DeveloperHeadlines/app/src/main/res/drawable-xxhdpi/tutorial_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_22_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_22_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cptr/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cptr/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cptr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cptr/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_24" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cptr/src/com/chanven/lib/cptr/recyclerview/RecyclerAdapterWithHF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="142" column="43" selection-start-line="142" selection-start-column="43" selection-end-line="142" selection-end-column="43" />
+              <folding>
+                <element signature="e#4761#4762#0" expanded="true" />
+                <element signature="e#4810#4811#0" expanded="true" />
+                <element signature="e#5687#5688#0" expanded="true" />
+                <element signature="e#5738#5739#0" expanded="true" />
+                <element signature="e#5908#5909#0" expanded="true" />
+                <element signature="e#5983#5984#0" expanded="true" />
+                <element signature="e#6018#6019#0" expanded="true" />
+                <element signature="e#6064#6065#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cptr/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ansen/developerheadlines/activity/LauncherActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ansen/developerheadlines/adapter/LauncherPagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ansen/developerheadlines/entity/SelectedArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cptr/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>instrumentTest</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cptr/src/com/chanven/lib/cptr/recyclerview/RecyclerAdapterWithHF.java" />
+        <option value="$PROJECT_DIR$/cptr/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/cptr/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="263" />
+    <option name="y" value="460" />
+    <option name="width" value="1676" />
+    <option name="height" value="858" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="developerheadlines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="developerheadlines" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="developerheadlines" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeveloperHeadlines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeveloperHeadlines" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="developerheadlines" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="FA7670303487" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.0.0" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1f2ad82-967a-4cd1-8f6f-e8a633d9e123" name="Default" comment="" />
+      <created>1533561741323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533561741323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="988" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Resources Explorer" weight="0.32960597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2342918" />
+      <window_info id="Structure" order="1" weight="0.24973376" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Logcat" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Flutter Performance" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cptr/src/com/chanven/lib/cptr/recyclerview/RecyclerAdapterWithHF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="142" column="43" selection-start-line="142" selection-start-column="43" selection-end-line="142" selection-end-column="43" />
+          <folding>
+            <element signature="e#4761#4762#0" expanded="true" />
+            <element signature="e#4810#4811#0" expanded="true" />
+            <element signature="e#5687#5688#0" expanded="true" />
+            <element signature="e#5738#5739#0" expanded="true" />
+            <element signature="e#5908#5909#0" expanded="true" />
+            <element signature="e#5983#5984#0" expanded="true" />
+            <element signature="e#6018#6019#0" expanded="true" />
+            <element signature="e#6064#6065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cptr/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cptr/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ansen/developerheadlines/activity/LauncherActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ansen/developerheadlines/adapter/LauncherPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ansen/developerheadlines/entity/SelectedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

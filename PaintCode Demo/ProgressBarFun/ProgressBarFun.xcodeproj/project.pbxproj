@@ -15,6 +15,7 @@
 		046D687922C1182B00D3DFAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D687822C1182B00D3DFAB /* main.m */; };
 		046D688122C1184600D3DFAB /* ProgressBarDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D688022C1184600D3DFAB /* ProgressBarDraw.m */; };
 		046D688522C1189700D3DFAB /* ProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D688422C1189700D3DFAB /* ProgressBarView.m */; };
+		0496E31923C5A3B2003DA842 /* GradProgresView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496E31823C5A3B2003DA842 /* GradProgresView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		046D688022C1184600D3DFAB /* ProgressBarDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBarDraw.m; sourceTree = "<group>"; };
 		046D688322C1189700D3DFAB /* ProgressBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressBarView.h; sourceTree = "<group>"; };
 		046D688422C1189700D3DFAB /* ProgressBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressBarView.m; sourceTree = "<group>"; };
+		0496E31723C5A3B2003DA842 /* GradProgresView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradProgresView.h; sourceTree = "<group>"; };
+		0496E31823C5A3B2003DA842 /* GradProgresView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradProgresView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				046D686A22C1182A00D3DFAB /* AppDelegate.m */,
 				046D686C22C1182A00D3DFAB /* ViewController.h */,
 				046D686D22C1182A00D3DFAB /* ViewController.m */,
+				0496E31723C5A3B2003DA842 /* GradProgresView.h */,
+				0496E31823C5A3B2003DA842 /* GradProgresView.m */,
 				046D686F22C1182A00D3DFAB /* Main.storyboard */,
 				046D687222C1182B00D3DFAB /* Assets.xcassets */,
 				046D687422C1182B00D3DFAB /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				046D688122C1184600D3DFAB /* ProgressBarDraw.m in Sources */,
+				0496E31923C5A3B2003DA842 /* GradProgresView.m in Sources */,
 				046D686E22C1182A00D3DFAB /* ViewController.m in Sources */,
 				046D688522C1189700D3DFAB /* ProgressBarView.m in Sources */,
 				046D687922C1182B00D3DFAB /* main.m in Sources */,

@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+attr? ptr_content
+attr? ptr_duration_to_close
+attr? ptr_duration_to_close_header
+attr? ptr_header
+attr? ptr_keep_header_when_refresh
+attr? ptr_pull_to_fresh
+attr? ptr_ratio_of_header_height_to_refresh
+attr? ptr_resistance
+attr? ptr_rotate_ani_time
+drawable icon_recycler_view_refresh
+drawable wel_act_loading_pro
+id iv_refresh_image
+id loadmore_default_footer_progressbar
+id loadmore_default_footer_tv
+id pro_refresh_progressBar
+layout cube_ptr_classic_default_header
+layout loadmore_default_footer
+string app_name
+string cube_ptr_hours_ago
+string cube_ptr_last_update
+string cube_ptr_minutes_ago
+string cube_ptr_pull_down
+string cube_ptr_pull_down_to_refresh
+string cube_ptr_refresh_complete
+string cube_ptr_refreshing
+string cube_ptr_release_to_refresh
+string cube_ptr_seconds_ago
+styleable PtrClassicHeader ptr_rotate_ani_time
+styleable PtrFrameLayout ptr_header ptr_content ptr_resistance ptr_ratio_of_header_height_to_refresh ptr_duration_to_close ptr_duration_to_close_header ptr_pull_to_fresh ptr_keep_header_when_refresh

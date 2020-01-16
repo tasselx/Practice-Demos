@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:2:5-35
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+application
+ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:6:5-9:19
+	android:label
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml:7:9-35
+uses-sdk
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+		ADDED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
+		INJECTED from /Users/tassel/DeveloperHeadlines/带你实现开发者头条APP(五)RecyclerView下拉刷新上拉加载/DeveloperHeadlines/cptr/AndroidManifest.xml
