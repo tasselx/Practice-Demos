@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' last-migration='0800'>
+    <pages>
+        <page name='Calculator'/>
+        <page name='Profile'/>
+        <page name='Timeline'/>
+        <page name='Apple iOS Calculator'/>
+        <page name='App Store'/>
+        <page name='Mail Inbox'/>
+        <page name='Size Classes'/>
+        <page name='Springboard'/>
+        <page name='Twiiter Profile'/>
+        <page name='Timeline with Quotes'/>
+        <page name='Story View'/>
+    </pages>
+</playground>
