@@ -1,8 +1,8 @@
 //
-//  StoryView.h
+//  Demo1View.h
 //  UIStackViewDemo
 //
-//  Created by tassel on 2020/4/2.
+//  Created by tassel on 2020/4/3.
 //  Copyright © 2020 tassel. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface StoryView : UIView
+@interface Demo1View : UIView
 
 @end
 

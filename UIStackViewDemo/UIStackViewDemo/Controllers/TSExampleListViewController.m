@@ -8,7 +8,9 @@
 
 #import "TSExampleListViewController.h"
 #import "TSExampleViewController.h"
-#import "StoryView.h"
+#import "Demo1View.h"
+#import "Demo2View.h"
+#import "Demo3View.h"
 static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
 
 @interface TSExampleListViewController ()
@@ -25,7 +27,9 @@ static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
     self.title = @"Examples";
     
     self.exampleControllers = @[
-        [[TSExampleViewController alloc] initWithTitle:@"Story View" viewClass:StoryView.class]
+        [[TSExampleViewController alloc] initWithTitle:@"Demo1" viewClass:Demo1View.class],
+        [[TSExampleViewController alloc] initWithTitle:@"Demo2" viewClass:Demo2View.class],
+        [[TSExampleViewController alloc] initWithTitle:@"时间线" viewClass:Demo3View.class]
     ];
     
     return self;

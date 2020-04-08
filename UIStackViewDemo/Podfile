@@ -7,4 +7,7 @@ target 'UIStackViewDemo' do
 
   # Pods for UIStackViewDemo
   pod 'Masonry'
+  pod 'BlocksKit'
+  pod 'YYCategories'
+
 end

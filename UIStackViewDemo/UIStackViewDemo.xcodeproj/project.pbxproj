@@ -15,8 +15,11 @@
 		04E9165E2435BD1E00FBB9CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9165D2435BD1E00FBB9CE /* main.m */; };
 		04E9166A2435C18100FBB9CE /* TSExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E916692435C18100FBB9CE /* TSExampleListViewController.m */; };
 		04E9166D2435C19A00FBB9CE /* TSExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9166C2435C19A00FBB9CE /* TSExampleViewController.m */; };
-		04E916712435C41A00FBB9CE /* StoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E916702435C41A00FBB9CE /* StoryView.m */; };
+		04E9169C2436FC6B00FBB9CE /* Demo1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9169B2436FC6B00FBB9CE /* Demo1View.m */; };
 		350787658885CA2AE071AA20 /* Pods_UIStackViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A417623DA53486C03BC174 /* Pods_UIStackViewDemo.framework */; };
+		CB7F11F7909F3A750028853E /* Demo3View.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F1DDEA1FB3B9C339D1C86 /* Demo3View.m */; };
+		CB7F17398B0D3A5DA4C7AB8D /* Demo3ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */; };
+		CB7F1C7C073A3E34DE83933F /* Demo2View.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F17775EBE8C24EB60B8BA /* Demo2View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +37,16 @@
 		04E916692435C18100FBB9CE /* TSExampleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSExampleListViewController.m; sourceTree = "<group>"; };
 		04E9166B2435C19A00FBB9CE /* TSExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSExampleViewController.h; sourceTree = "<group>"; };
 		04E9166C2435C19A00FBB9CE /* TSExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSExampleViewController.m; sourceTree = "<group>"; };
-		04E9166F2435C41A00FBB9CE /* StoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryView.h; sourceTree = "<group>"; };
-		04E916702435C41A00FBB9CE /* StoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryView.m; sourceTree = "<group>"; };
+		04E9169A2436FC6B00FBB9CE /* Demo1View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1View.h; sourceTree = "<group>"; };
+		04E9169B2436FC6B00FBB9CE /* Demo1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1View.m; sourceTree = "<group>"; };
 		1BA7EE9BCC96FE915DDDC10F /* Pods-UIStackViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIStackViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIStackViewDemo/Pods-UIStackViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B1A417623DA53486C03BC174 /* Pods_UIStackViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIStackViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewCell.m; sourceTree = "<group>"; };
+		CB7F154CF9A36F2F1C956FB0 /* Demo3ViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3ViewCell.h; sourceTree = "<group>"; };
+		CB7F17775EBE8C24EB60B8BA /* Demo2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2View.m; sourceTree = "<group>"; };
+		CB7F1A8C564483BB131CCC8B /* Demo3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3View.h; sourceTree = "<group>"; };
+		CB7F1DDEA1FB3B9C339D1C86 /* Demo3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3View.m; sourceTree = "<group>"; };
+		CB7F1ED216D31D12E851D437 /* Demo2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2View.h; sourceTree = "<group>"; };
 		EB5C957539809453D8D51E87 /* Pods-UIStackViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIStackViewDemo.release.xcconfig"; path = "Target Support Files/Pods-UIStackViewDemo/Pods-UIStackViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,8 +121,14 @@
 		04E9166E2435C35D00FBB9CE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04E9166F2435C41A00FBB9CE /* StoryView.h */,
-				04E916702435C41A00FBB9CE /* StoryView.m */,
+				04E9169A2436FC6B00FBB9CE /* Demo1View.h */,
+				04E9169B2436FC6B00FBB9CE /* Demo1View.m */,
+				CB7F1ED216D31D12E851D437 /* Demo2View.h */,
+				CB7F17775EBE8C24EB60B8BA /* Demo2View.m */,
+				CB7F1A8C564483BB131CCC8B /* Demo3View.h */,
+				CB7F1DDEA1FB3B9C339D1C86 /* Demo3View.m */,
+				CB7F154CF9A36F2F1C956FB0 /* Demo3ViewCell.h */,
+				CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,10 +257,13 @@
 			files = (
 				04E916532435BD1D00FBB9CE /* ViewController.m in Sources */,
 				04E9164D2435BD1D00FBB9CE /* AppDelegate.m in Sources */,
-				04E916712435C41A00FBB9CE /* StoryView.m in Sources */,
+				04E9169C2436FC6B00FBB9CE /* Demo1View.m in Sources */,
 				04E9166A2435C18100FBB9CE /* TSExampleListViewController.m in Sources */,
 				04E9165E2435BD1E00FBB9CE /* main.m in Sources */,
 				04E9166D2435C19A00FBB9CE /* TSExampleViewController.m in Sources */,
+				CB7F1C7C073A3E34DE83933F /* Demo2View.m in Sources */,
+				CB7F11F7909F3A750028853E /* Demo3View.m in Sources */,
+				CB7F17398B0D3A5DA4C7AB8D /* Demo3ViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
