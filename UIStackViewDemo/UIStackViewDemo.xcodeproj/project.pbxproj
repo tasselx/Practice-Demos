@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044E2772244D41A2002C7988 /* Demo4View.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E2771244D41A2002C7988 /* Demo4View.m */; };
+		044E2775244D473A002C7988 /* OverlapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E2774244D473A002C7988 /* OverlapView.m */; };
+		044E2778244D4A20002C7988 /* VerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E2777244D4A20002C7988 /* VerticalView.m */; };
+		044E277B244D4DB0002C7988 /* AdaptiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E277A244D4DB0002C7988 /* AdaptiveView.m */; };
+		044E277E244D7658002C7988 /* ScrollStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E277D244D7658002C7988 /* ScrollStackView.m */; };
 		04E9164D2435BD1D00FBB9CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9164C2435BD1D00FBB9CE /* AppDelegate.m */; };
 		04E916532435BD1D00FBB9CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E916522435BD1D00FBB9CE /* ViewController.m */; };
 		04E916562435BD1D00FBB9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E916542435BD1D00FBB9CE /* Main.storyboard */; };
@@ -23,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044E2770244D41A2002C7988 /* Demo4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4View.h; sourceTree = "<group>"; };
+		044E2771244D41A2002C7988 /* Demo4View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4View.m; sourceTree = "<group>"; };
+		044E2773244D473A002C7988 /* OverlapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlapView.h; sourceTree = "<group>"; };
+		044E2774244D473A002C7988 /* OverlapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlapView.m; sourceTree = "<group>"; };
+		044E2776244D4A20002C7988 /* VerticalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalView.h; sourceTree = "<group>"; };
+		044E2777244D4A20002C7988 /* VerticalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalView.m; sourceTree = "<group>"; };
+		044E2779244D4DB0002C7988 /* AdaptiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptiveView.h; sourceTree = "<group>"; };
+		044E277A244D4DB0002C7988 /* AdaptiveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveView.m; sourceTree = "<group>"; };
+		044E277C244D7658002C7988 /* ScrollStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollStackView.h; sourceTree = "<group>"; };
+		044E277D244D7658002C7988 /* ScrollStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollStackView.m; sourceTree = "<group>"; };
 		04E916482435BD1D00FBB9CE /* UIStackViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStackViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E9164B2435BD1D00FBB9CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04E9164C2435BD1D00FBB9CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +144,16 @@
 				CB7F1DDEA1FB3B9C339D1C86 /* Demo3View.m */,
 				CB7F154CF9A36F2F1C956FB0 /* Demo3ViewCell.h */,
 				CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */,
+				044E2770244D41A2002C7988 /* Demo4View.h */,
+				044E2771244D41A2002C7988 /* Demo4View.m */,
+				044E2773244D473A002C7988 /* OverlapView.h */,
+				044E2774244D473A002C7988 /* OverlapView.m */,
+				044E2776244D4A20002C7988 /* VerticalView.h */,
+				044E2777244D4A20002C7988 /* VerticalView.m */,
+				044E2779244D4DB0002C7988 /* AdaptiveView.h */,
+				044E277A244D4DB0002C7988 /* AdaptiveView.m */,
+				044E277C244D7658002C7988 /* ScrollStackView.h */,
+				044E277D244D7658002C7988 /* ScrollStackView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,9 +284,14 @@
 				04E9164D2435BD1D00FBB9CE /* AppDelegate.m in Sources */,
 				04E9169C2436FC6B00FBB9CE /* Demo1View.m in Sources */,
 				04E9166A2435C18100FBB9CE /* TSExampleListViewController.m in Sources */,
+				044E277E244D7658002C7988 /* ScrollStackView.m in Sources */,
+				044E2772244D41A2002C7988 /* Demo4View.m in Sources */,
 				04E9165E2435BD1E00FBB9CE /* main.m in Sources */,
+				044E2778244D4A20002C7988 /* VerticalView.m in Sources */,
+				044E277B244D4DB0002C7988 /* AdaptiveView.m in Sources */,
 				04E9166D2435C19A00FBB9CE /* TSExampleViewController.m in Sources */,
 				CB7F1C7C073A3E34DE83933F /* Demo2View.m in Sources */,
+				044E2775244D473A002C7988 /* OverlapView.m in Sources */,
 				CB7F11F7909F3A750028853E /* Demo3View.m in Sources */,
 				CB7F17398B0D3A5DA4C7AB8D /* Demo3ViewCell.m in Sources */,
 			);

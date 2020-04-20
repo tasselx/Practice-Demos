@@ -11,6 +11,11 @@
 #import "Demo1View.h"
 #import "Demo2View.h"
 #import "Demo3View.h"
+#import "Demo4View.h"
+#import "OverlapView.h"
+#import "VerticalView.h"
+#import "AdaptiveView.h"
+#import "ScrollStackView.h"
 static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
 
 @interface TSExampleListViewController ()
@@ -29,7 +34,13 @@ static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
     self.exampleControllers = @[
         [[TSExampleViewController alloc] initWithTitle:@"Demo1" viewClass:Demo1View.class],
         [[TSExampleViewController alloc] initWithTitle:@"Demo2" viewClass:Demo2View.class],
-        [[TSExampleViewController alloc] initWithTitle:@"时间线" viewClass:Demo3View.class]
+        [[TSExampleViewController alloc] initWithTitle:@"时间线" viewClass:Demo3View.class],
+        [[TSExampleViewController alloc] initWithTitle:@"隐藏显示" viewClass:Demo4View.class],
+        [[TSExampleViewController alloc] initWithTitle:@"重叠视图" viewClass:OverlapView.class],
+        [[TSExampleViewController alloc] initWithTitle:@"垂直视图" viewClass:VerticalView.class],
+        [[TSExampleViewController alloc] initWithTitle:@"自适应文本" viewClass:AdaptiveView.class],
+        [[TSExampleViewController alloc] initWithTitle:@"ScrollStackView" viewClass:ScrollStackView.class]
+
     ];
     
     return self;
@@ -65,4 +76,7 @@ static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
+- (void)dealloc {
+    
+}
 @end

@@ -28,7 +28,10 @@
     UIStackView *main = [self rowsWithMargin:UIEdgeInsetsMake(15, 15, 15, 15) spacing:10];
     [self.contentView addSubview:main];
     [main mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(self);
+        make.left.offset(0);
+        make.top.offset(0);
+        make.right.offset(0);
+        make.bottom.offset(0);
     }];
 
     UIStackView *headBar = [self colsWithMargin:UIEdgeInsetsZero spacing:10];

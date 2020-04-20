@@ -58,6 +58,7 @@
         _imageView1 = [UIImageView new];
         _imageView1.image = [UIImage imageNamed:@"1"];
         _imageView1.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView1.clipsToBounds = YES;
 
     }
     return _imageView1;
@@ -68,6 +69,7 @@
         _imageView2 = [UIImageView new];
         _imageView2.image = [UIImage imageNamed:@"2"];
         _imageView2.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView2.clipsToBounds = YES;
     }
     return _imageView2;
 }
@@ -77,6 +79,7 @@
         _imageView3 = [UIImageView new];
         _imageView3.image = [UIImage imageNamed:@"3"];
         _imageView3.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView3.clipsToBounds = YES;
 
     }
     return _imageView3;
