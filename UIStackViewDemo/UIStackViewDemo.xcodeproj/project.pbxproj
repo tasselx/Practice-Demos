@@ -25,6 +25,9 @@
 		04E9166A2435C18100FBB9CE /* TSExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E916692435C18100FBB9CE /* TSExampleListViewController.m */; };
 		04E9166D2435C19A00FBB9CE /* TSExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9166C2435C19A00FBB9CE /* TSExampleViewController.m */; };
 		04E9169C2436FC6B00FBB9CE /* Demo1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9169B2436FC6B00FBB9CE /* Demo1View.m */; };
+		04EB4CAC244E89F300B93AA1 /* SpotInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CAB244E89F300B93AA1 /* SpotInfoViewController.m */; };
+		04EB4CAF244E89FF00B93AA1 /* RatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CAE244E89FF00B93AA1 /* RatingViewController.m */; };
+		04EB4CB2244E8A0A00B93AA1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CB1244E8A0A00B93AA1 /* MapViewController.m */; };
 		350787658885CA2AE071AA20 /* Pods_UIStackViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A417623DA53486C03BC174 /* Pods_UIStackViewDemo.framework */; };
 		CB7F11F7909F3A750028853E /* Demo3View.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F1DDEA1FB3B9C339D1C86 /* Demo3View.m */; };
 		CB7F17398B0D3A5DA4C7AB8D /* Demo3ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */; };
@@ -65,6 +68,12 @@
 		04E9166C2435C19A00FBB9CE /* TSExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSExampleViewController.m; sourceTree = "<group>"; };
 		04E9169A2436FC6B00FBB9CE /* Demo1View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1View.h; sourceTree = "<group>"; };
 		04E9169B2436FC6B00FBB9CE /* Demo1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1View.m; sourceTree = "<group>"; };
+		04EB4CAA244E89F300B93AA1 /* SpotInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotInfoViewController.h; sourceTree = "<group>"; };
+		04EB4CAB244E89F300B93AA1 /* SpotInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotInfoViewController.m; sourceTree = "<group>"; };
+		04EB4CAD244E89FF00B93AA1 /* RatingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingViewController.h; sourceTree = "<group>"; };
+		04EB4CAE244E89FF00B93AA1 /* RatingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingViewController.m; sourceTree = "<group>"; };
+		04EB4CB0244E8A0A00B93AA1 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		04EB4CB1244E8A0A00B93AA1 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		1BA7EE9BCC96FE915DDDC10F /* Pods-UIStackViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIStackViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIStackViewDemo/Pods-UIStackViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B1A417623DA53486C03BC174 /* Pods_UIStackViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIStackViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewCell.m; sourceTree = "<group>"; };
@@ -100,6 +109,7 @@
 		04C4DF82244DAA8C0067F668 /* CompleteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04EB4CA9244E896F00B93AA1 /* Controllers */,
 				04C4DF86244DAACB0067F668 /* Model */,
 				04C4DF7F244DA4620067F668 /* CompleteDemoView.h */,
 				04C4DF80244DA4620067F668 /* CompleteDemoView.m */,
@@ -190,6 +200,19 @@
 				04C4DF82244DAA8C0067F668 /* CompleteDemo */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		04EB4CA9244E896F00B93AA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04EB4CAA244E89F300B93AA1 /* SpotInfoViewController.h */,
+				04EB4CAB244E89F300B93AA1 /* SpotInfoViewController.m */,
+				04EB4CAD244E89FF00B93AA1 /* RatingViewController.h */,
+				04EB4CAE244E89FF00B93AA1 /* RatingViewController.m */,
+				04EB4CB0244E8A0A00B93AA1 /* MapViewController.h */,
+				04EB4CB1244E8A0A00B93AA1 /* MapViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D8EFD483909E214B104ADB5D /* Frameworks */ = {
@@ -322,7 +345,9 @@
 				044E277E244D7658002C7988 /* ScrollStackView.m in Sources */,
 				044E2772244D41A2002C7988 /* Demo4View.m in Sources */,
 				04E9165E2435BD1E00FBB9CE /* main.m in Sources */,
+				04EB4CB2244E8A0A00B93AA1 /* MapViewController.m in Sources */,
 				044E2778244D4A20002C7988 /* VerticalView.m in Sources */,
+				04EB4CAC244E89F300B93AA1 /* SpotInfoViewController.m in Sources */,
 				04C4DF85244DAABA0067F668 /* VacationSpotCell.m in Sources */,
 				044E277B244D4DB0002C7988 /* AdaptiveView.m in Sources */,
 				04E9166D2435C19A00FBB9CE /* TSExampleViewController.m in Sources */,
@@ -332,6 +357,7 @@
 				CB7F17398B0D3A5DA4C7AB8D /* Demo3ViewCell.m in Sources */,
 				04C4DF89244DAAE10067F668 /* VacationSpot.m in Sources */,
 				04C4DF81244DA4620067F668 /* CompleteDemoView.m in Sources */,
+				04EB4CAF244E89FF00B93AA1 /* RatingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

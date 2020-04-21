@@ -10,6 +10,8 @@
 #import "VacationSpotCell.h"
 #import "VacationSpot.h"
 #import <Masonry/Masonry.h>
+#import "TSExampleListViewController.h"
+#import "SpotInfoViewController.h"
 @interface CompleteDemoView()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray<VacationSpot *> *vacationSpots;
@@ -62,5 +64,14 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.vacationSpots.count;
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+   
+    TSExampleListViewController *viewController = (TSExampleListViewController *)self.tableView.nextResponder.nextResponder;
+    SpotInfoViewController *infoVc = [SpotInfoViewController new];
+    VacationSpot *vacationSpot = self.vacationSpots[indexPath.row];
+    infoVc.vacationSpot = vacationSpot;
+    infoVc.vc = infoVc;
+    [viewController.navigationController pushViewController:infoVc animated:YES];
 
+}
 @end
