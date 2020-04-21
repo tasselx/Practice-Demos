@@ -12,6 +12,7 @@
 		044E2778244D4A20002C7988 /* VerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E2777244D4A20002C7988 /* VerticalView.m */; };
 		044E277B244D4DB0002C7988 /* AdaptiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E277A244D4DB0002C7988 /* AdaptiveView.m */; };
 		044E277E244D7658002C7988 /* ScrollStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E277D244D7658002C7988 /* ScrollStackView.m */; };
+		0495B0FA244EE6DF00F5D097 /* PhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495B0F9244EE6DF00F5D097 /* PhotoCollectionView.m */; };
 		04C4DF81244DA4620067F668 /* CompleteDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4DF80244DA4620067F668 /* CompleteDemoView.m */; };
 		04C4DF85244DAABA0067F668 /* VacationSpotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4DF84244DAABA0067F668 /* VacationSpotCell.m */; };
 		04C4DF89244DAAE10067F668 /* VacationSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4DF88244DAAE10067F668 /* VacationSpot.m */; };
@@ -47,6 +48,8 @@
 		044E277A244D4DB0002C7988 /* AdaptiveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveView.m; sourceTree = "<group>"; };
 		044E277C244D7658002C7988 /* ScrollStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollStackView.h; sourceTree = "<group>"; };
 		044E277D244D7658002C7988 /* ScrollStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollStackView.m; sourceTree = "<group>"; };
+		0495B0F8244EE6DF00F5D097 /* PhotoCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionView.h; sourceTree = "<group>"; };
+		0495B0F9244EE6DF00F5D097 /* PhotoCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionView.m; sourceTree = "<group>"; };
 		04C4DF7F244DA4620067F668 /* CompleteDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompleteDemoView.h; sourceTree = "<group>"; };
 		04C4DF80244DA4620067F668 /* CompleteDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompleteDemoView.m; sourceTree = "<group>"; };
 		04C4DF83244DAABA0067F668 /* VacationSpotCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VacationSpotCell.h; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 				04EB4CB4244EC58500B93AA1 /* NestedView.m */,
 				04EB4CB6244EC6D100B93AA1 /* TSImageView.h */,
 				04EB4CB7244EC6D100B93AA1 /* TSImageView.m */,
+				0495B0F8244EE6DF00F5D097 /* PhotoCollectionView.h */,
+				0495B0F9244EE6DF00F5D097 /* PhotoCollectionView.m */,
 				04C4DF82244DAA8C0067F668 /* CompleteDemo */,
 			);
 			path = Views;
@@ -358,6 +363,7 @@
 				04EB4CB2244E8A0A00B93AA1 /* MapViewController.m in Sources */,
 				04EB4CB5244EC58500B93AA1 /* NestedView.m in Sources */,
 				044E2778244D4A20002C7988 /* VerticalView.m in Sources */,
+				0495B0FA244EE6DF00F5D097 /* PhotoCollectionView.m in Sources */,
 				04EB4CAC244E89F300B93AA1 /* SpotInfoViewController.m in Sources */,
 				04C4DF85244DAABA0067F668 /* VacationSpotCell.m in Sources */,
 				044E277B244D4DB0002C7988 /* AdaptiveView.m in Sources */,

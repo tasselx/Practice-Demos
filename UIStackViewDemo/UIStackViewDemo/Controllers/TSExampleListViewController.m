@@ -18,6 +18,7 @@
 #import "ScrollStackView.h"
 #import "CompleteDemoView.h"
 #import "NestedView.h"
+#import "PhotoCollectionView.h"
 static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
 
 @interface TSExampleListViewController ()
@@ -43,9 +44,8 @@ static NSString * const kTSCellReuseIdentifier = @"kMASCellReuseIdentifier";
         [[TSExampleViewController alloc] initWithTitle:@"自适应文本" viewClass:AdaptiveView.class],
         [[TSExampleViewController alloc] initWithTitle:@"ScrollStackView" viewClass:ScrollStackView.class],
          [[TSExampleViewController alloc] initWithTitle:@"完整Demo" viewClass:CompleteDemoView.class],
-        [[TSExampleViewController alloc] initWithTitle:@"嵌套ScrollView" viewClass:NestedView.class]
-
-
+        [[TSExampleViewController alloc] initWithTitle:@"嵌套ScrollView" viewClass:NestedView.class],
+        [[TSExampleViewController alloc] initWithTitle:@"Photo Collection" viewClass:PhotoCollectionView.class]
     ];
     
     return self;
