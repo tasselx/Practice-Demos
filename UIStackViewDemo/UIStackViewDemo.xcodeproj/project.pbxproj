@@ -28,6 +28,8 @@
 		04EB4CAC244E89F300B93AA1 /* SpotInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CAB244E89F300B93AA1 /* SpotInfoViewController.m */; };
 		04EB4CAF244E89FF00B93AA1 /* RatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CAE244E89FF00B93AA1 /* RatingViewController.m */; };
 		04EB4CB2244E8A0A00B93AA1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CB1244E8A0A00B93AA1 /* MapViewController.m */; };
+		04EB4CB5244EC58500B93AA1 /* NestedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CB4244EC58500B93AA1 /* NestedView.m */; };
+		04EB4CB8244EC6D100B93AA1 /* TSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4CB7244EC6D100B93AA1 /* TSImageView.m */; };
 		350787658885CA2AE071AA20 /* Pods_UIStackViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A417623DA53486C03BC174 /* Pods_UIStackViewDemo.framework */; };
 		CB7F11F7909F3A750028853E /* Demo3View.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F1DDEA1FB3B9C339D1C86 /* Demo3View.m */; };
 		CB7F17398B0D3A5DA4C7AB8D /* Demo3ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */; };
@@ -74,6 +76,10 @@
 		04EB4CAE244E89FF00B93AA1 /* RatingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingViewController.m; sourceTree = "<group>"; };
 		04EB4CB0244E8A0A00B93AA1 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		04EB4CB1244E8A0A00B93AA1 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		04EB4CB3244EC58500B93AA1 /* NestedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedView.h; sourceTree = "<group>"; };
+		04EB4CB4244EC58500B93AA1 /* NestedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedView.m; sourceTree = "<group>"; };
+		04EB4CB6244EC6D100B93AA1 /* TSImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSImageView.h; sourceTree = "<group>"; };
+		04EB4CB7244EC6D100B93AA1 /* TSImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSImageView.m; sourceTree = "<group>"; };
 		1BA7EE9BCC96FE915DDDC10F /* Pods-UIStackViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIStackViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIStackViewDemo/Pods-UIStackViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B1A417623DA53486C03BC174 /* Pods_UIStackViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIStackViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7F10FEA130C7F9AA55BF06 /* Demo3ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewCell.m; sourceTree = "<group>"; };
@@ -197,6 +203,10 @@
 				044E277A244D4DB0002C7988 /* AdaptiveView.m */,
 				044E277C244D7658002C7988 /* ScrollStackView.h */,
 				044E277D244D7658002C7988 /* ScrollStackView.m */,
+				04EB4CB3244EC58500B93AA1 /* NestedView.h */,
+				04EB4CB4244EC58500B93AA1 /* NestedView.m */,
+				04EB4CB6244EC6D100B93AA1 /* TSImageView.h */,
+				04EB4CB7244EC6D100B93AA1 /* TSImageView.m */,
 				04C4DF82244DAA8C0067F668 /* CompleteDemo */,
 			);
 			path = Views;
@@ -346,10 +356,12 @@
 				044E2772244D41A2002C7988 /* Demo4View.m in Sources */,
 				04E9165E2435BD1E00FBB9CE /* main.m in Sources */,
 				04EB4CB2244E8A0A00B93AA1 /* MapViewController.m in Sources */,
+				04EB4CB5244EC58500B93AA1 /* NestedView.m in Sources */,
 				044E2778244D4A20002C7988 /* VerticalView.m in Sources */,
 				04EB4CAC244E89F300B93AA1 /* SpotInfoViewController.m in Sources */,
 				04C4DF85244DAABA0067F668 /* VacationSpotCell.m in Sources */,
 				044E277B244D4DB0002C7988 /* AdaptiveView.m in Sources */,
+				04EB4CB8244EC6D100B93AA1 /* TSImageView.m in Sources */,
 				04E9166D2435C19A00FBB9CE /* TSExampleViewController.m in Sources */,
 				CB7F1C7C073A3E34DE83933F /* Demo2View.m in Sources */,
 				044E2775244D473A002C7988 /* OverlapView.m in Sources */,

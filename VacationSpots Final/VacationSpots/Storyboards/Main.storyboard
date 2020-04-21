@@ -247,7 +247,6 @@
                                                         </subviews>
                                                     </stackView>
                                                 </subviews>
-                                                <variation key="heightClass=compact" spacing="10"/>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktb-bF-Vf4">
                                                 <rect key="frame" x="104" y="134.5" width="32" height="30"/>
