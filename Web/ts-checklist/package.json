@@ -1,0 +1,21 @@
+{
+  "name": "ts-checklist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "husky": "^4.2.5",
+    "ts-node": "^8.9.0",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn tslint -c tslint.json 'src/**/*.ts'"
+    }
+  },
+  "dependencies": {
+    "typeorm": "^0.2.24"
+  }
+}

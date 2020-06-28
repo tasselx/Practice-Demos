@@ -15,6 +15,9 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - Masonry (1.1.0)
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -22,19 +25,22 @@ PODS:
 DEPENDENCIES:
   - BlocksKit
   - Masonry
+  - SDWebImage
   - YYCategories
 
 SPEC REPOS:
   trunk:
     - BlocksKit
     - Masonry
+    - SDWebImage
     - YYCategories
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 69915aaa09e46d71758cafaaf11099a020696fbb
+PODFILE CHECKSUM: ba5351aa77fb334a1f350660455dfe0f6aa5b02c
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

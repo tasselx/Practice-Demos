@@ -9,5 +9,6 @@ target 'UIStackViewDemo' do
   pod 'Masonry'
   pod 'BlocksKit'
   pod 'YYCategories'
+  pod 'SDWebImage'
 
 end

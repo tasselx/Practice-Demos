@@ -8,6 +8,7 @@
 
 #import "TSImageView.h"
 #import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImage.h>
 @interface TSImageView()
 @property (nonatomic, strong) UIStackView   *stackView;
 @property (nonatomic, strong) UIImageView   *imgView;
@@ -57,6 +58,7 @@
     if (!_imgView) {
         _imgView = [UIImageView new];
         _imgView.backgroundColor = [self rndColor];
+        [_imgView sd_setImageWithURL:[NSURL URLWithString:@"http://thirdwx.qlogo.cn/mmopen/vi_32/TQRoibX72mRxIkvv65X62iam2Pv48UkrFRWc2AFo9hReRNJvV8R1R9LImDza1sYcanqjibR52DLictEmBicibibf3CeXw/132"]];
     }
     return _imgView;
 }
@@ -65,6 +67,7 @@
         _textLabel = [UILabel new];
         _textLabel.font = [UIFont systemFontOfSize:15];
         _textLabel.text = @"美食";
+        
     }
     return _textLabel;
 }
