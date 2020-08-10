@@ -67,7 +67,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e8d825-67bd-4699-a2b2-356b636e3bb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/组件传值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/props传值校验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/slot插槽.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/slot插槽作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/动态组件-v-once.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/原生组件事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/组件讲解1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/计算属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -100,7 +106,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,7 +124,8 @@
       <updated>1596985469155</updated>
       <workItem from="1596985470455" duration="2583000" />
       <workItem from="1596988864647" duration="24000" />
-      <workItem from="1597017062119" duration="1941000" />
+      <workItem from="1597017062119" duration="2515000" />
+      <workItem from="1597062394429" duration="9242000" />
     </task>
     <servers />
   </component>
@@ -138,9 +145,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="772" y="190" key="SettingsEditor" timestamp="1596985897192">
+    <state x="451" y="165" key="SettingsEditor" timestamp="1597062931282">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
-    <state x="772" y="190" key="SettingsEditor/0.23.1920.992@0.23.1920.992" timestamp="1596985897192" />
+    <state x="451" y="165" key="SettingsEditor/0.23.1920.992@0.23.1920.992" timestamp="1597062931282" />
+    <state x="1258" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1597069854611">
+      <screen x="0" y="23" width="1920" height="992" />
+    </state>
+    <state x="1258" y="242" width="670" height="676" key="search.everywhere.popup/0.23.1920.992@0.23.1920.992" timestamp="1597069854611" />
   </component>
 </project>

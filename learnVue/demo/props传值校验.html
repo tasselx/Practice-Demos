@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <counter :count="1"></counter>
+    <counter :count="2"></counter>
+
+</div>
+</body>
+
+<script>
+
+    //单向数据流: 父组件传值 子组件不要修改父组件值
+    const counter = {
+      //父向子组件传值
+      // props:['count'], 不校验
+      props:{
+        // count:String//参数校验
+        // count:[String,Number]//参数校验
+        count:{
+          type:String,
+          required:false,
+          default:'默认值',
+          validator(value){
+            return value>5;
+          }
+        }
+      },
+      data(){
+        return {
+          number:this.count
+        }
+      },
+      methods:{
+        handleClick(){
+          this.number++;
+        }
+      },
+      template:'<div @click="handleClick">{{this.number}}</div>'
+    }
+    const  app = new Vue({
+      el:'#app',
+      components:{
+        counter:counter
+      }
+    });
+</script>
+</html>

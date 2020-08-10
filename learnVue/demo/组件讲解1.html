@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <style>
+        .activated {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div @click="handleDivClick" :class="[activated]">
+        Hello world
+    </div>
+
+<!-- template可以出现的html里面-->
+    <template v-for="(item,key) in userInfo">
+        <div>{{item}}</div>
+        <div>{{key}}</div>
+    </template>
+    <table>
+        <tbody>
+<!--这种必须这样写组件 解决模板出错-->
+        <tr is="row"></tr>
+        <tr is="row"></tr>
+        <tr is="row"></tr>
+        </tbody>
+    </table>
+<!--    ref获取dom节点-->
+    <div ref="hello" @click="handleDivClick1"> hello world</div>
+
+<!--    ref 子组件的引用-->
+    <counter ref="counter1" @change="handleChange"></counter>
+    <counter ref="counter2" @change="handleChange"></counter>
+    <div>total {{total}}</div>
+</div>
+
+<script>
+
+   Vue.component('counter',{
+     data(){
+       return {
+         number:0
+       }
+     },
+     methods:{
+       handleCounterClick() {
+         this.number++
+         this.$emit('change');
+       }
+     },
+     template:'<div @click="handleCounterClick">{{number}}</div>'
+   })
+   Vue.component('row',{
+     // 子组件data是函数 返回值是对象 {}是对象
+     data(){
+       return {
+         content:'this is a row'
+       }
+     },
+     template:'<tr>{{content}}</tr>'
+   });
+    const app = new Vue({
+      el:'#app',
+      data:{
+        activated:'',
+        userInfo:{
+          name:'11',
+          age:12
+        },
+        total:0
+      },
+      methods:{
+        handleDivClick1(){
+          console.log(this.$refs.hello.innerHTML);
+
+        },
+        handleDivClick(){
+          this.activated = this.activated==='activated'?'':'activated';
+          // Vue.set(app.userInfo,'age',13); 这样设置vue的值会改变
+          app.$set(app.userInfo,'age',11);
+        },
+        handleChange(){
+          this.total = this.$refs.counter1.number + this.$refs.counter2.number;
+        }
+      }
+      },
+    );
+</script>
+</body>
+</html>

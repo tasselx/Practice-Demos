@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <body-content>
+        <!--      具名插槽-->
+        <div class="header" slot="header">header</div>
+        <div class="footer" slot="footer">footer</div>
+        <!--      <div> other</div>-->
+    </body-content>
+</div>
+</body>
+
+<script>
+
+    const child = {
+      template:'<div>Child</div>'
+    };
+    const  bodyContent = {
+      template:`
+      <div>
+      <slot name="header"></slot>
+      <div class="content">content</div>
+       <slot name="footer"></slot>
+       </div>`,
+    };
+    const  app = new Vue({
+      el:'#app',
+      components:{
+        bodyContent:bodyContent
+      }
+
+    });
+</script>
+</html>

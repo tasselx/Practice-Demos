@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+<!--    原生点击事件，非子组件事件-->
+  <child @click.native="handleChildClick"></child>
+
+</div>
+</body>
+
+<script>
+
+    const child = {
+      template:'<div>Child</div>'
+    }
+
+    const  app = new Vue({
+      el:'#app',
+      components:{
+        child:child,
+      },
+      methods:{
+        handleChildClick(){
+          alert('click');
+        }
+      }
+    });
+</script>
+</html>

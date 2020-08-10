@@ -2,50 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="js/vue.js"></script>
+    <title>动画</title>
 </head>
 <body>
 
-<div id="app">
-<h1>{{fullName}}</h1>
-</div>
-
-<script>
-    const app = new Vue({
-      el:'#app',
-      data:{
-        firstName:'Tassel',
-        lastName:'Lee',
-        fullName:'Tassel Lee'
-      },
-      methods:{
-
-      },
-      watch:{
-        firstName(){
-          this.fullName = this.firstName + ' ' + this.lastName;
-        },
-        lastName() {
-          this.fullName = this.firstName + ' ' + this.lastName;
-        }
-      },
-      //计算属性 有缓存 性能可以更高
-      computed:{
-        //fullName(){
-        //   return this.firstName +' '+ this.lastName
-        // }
-        fullName:{
-          get(){
-            return this.firstName + ' ' + this.lastName
-          },
-          set(value){
-            console.log(value);
-          }
-        }
-      }
-
-    });
-</script>
 </body>
 </html>

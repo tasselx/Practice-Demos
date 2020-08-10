@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作用域插槽</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+
+    <child>
+        <template slot-scope="props">
+            <li>{{props.item}}</li>
+        </template>
+    </child>
+    <component :is="child">动态组件</component>
+</div>
+</body>
+
+<script>
+
+    Vue.component('child',{
+      data(){
+        return {
+         list:[1,2,3,4]
+        }
+      },
+      template:`
+      <div>
+      <ul>
+        <slot v-for="item in list" :item="item"></slot>
+      </ul>
+</div>
+      `
+    });
+
+    Vue.component('child-one',{
+      //v-once 会放在内存中 相当于优化
+      template:'<div v-once><slot>默认</slot></div>'
+    })
+    const  app = new Vue({
+      el:'#app',
+      data:{
+        child:'child-one'
+      }
+    });
+</script>
+</html>
