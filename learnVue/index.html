@@ -8,43 +8,44 @@
 <body>
 
 <div id="app">
-    <input type="text" v-model="inputValue"/>
-    <button @click="handleButtonClick">提交</button>
-    <ul>
-        <todo-item :content="item" :index="index" v-for="(item,index) in list" @delete="handleItemClick"></todo-item>
-    </ul>
+<h1>{{fullName}}</h1>
 </div>
-<script>
 
-    const TodoItem = {
-      props: ['content','index'],
-      template: "<li @click='handleItemClick'>{{content}}</li>",
-      methods: {
-        handleItemClick() {
-          this.$emit('delete',this.index);
-        }
-      }
-    }
+<script>
     const app = new Vue({
       el:'#app',
-      components:{
-        TodoItem:TodoItem
-      },
       data:{
-        list:[],
-        inputValue:''
+        firstName:'Tassel',
+        lastName:'Lee',
+        fullName:'Tassel Lee'
       },
       methods:{
-        handleButtonClick(){
-          this.list.push(this.inputValue);
-          this.inputValue = '';
+
+      },
+      watch:{
+        firstName(){
+          this.fullName = this.firstName + ' ' + this.lastName;
         },
-        handleItemClick(index) {
-          this.list.splice(index,1);
+        lastName() {
+          this.fullName = this.firstName + ' ' + this.lastName;
         }
       },
+      //计算属性 有缓存 性能可以更高
+      computed:{
+        //fullName(){
+        //   return this.firstName +' '+ this.lastName
+        // }
+        fullName:{
+          get(){
+            return this.firstName + ' ' + this.lastName
+          },
+          set(value){
+            console.log(value);
+          }
+        }
       }
-    )
+
+    });
 </script>
 </body>
 </html>
