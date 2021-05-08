@@ -16,6 +16,6 @@
     }
   },
   "dependencies": {
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.25"
   }
 }
